@@ -1,12 +1,19 @@
 html{
   height:100%;
   width:100%;
+        box-sizing:border-box;
+
 }
 
 body {
   height:100%;
   width:100%;
   background-color: darkred;
+}
+*, *::before, *::after{
+  box-sizing:inherit;
+
+
 }
 .aligncenter{
   position:relative;
@@ -25,9 +32,12 @@ body {
 }
 
 .footer{
-  position:absolute;
-  bottom:30px;
+  position:fixed;
+  top:0px;
   width:100%;
+  left:0px;
+  background-color:darkred;
+  height:35px;
 }
 
 .next{
