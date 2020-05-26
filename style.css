@@ -1,0 +1,85 @@
+html{
+  height:100%;
+  width:100%;
+}
+
+body {
+  height:100%;
+  width:100%;
+  background-color: darkred;
+}
+.aligncenter{
+  position:relative;
+  top:30%;
+  text-align:center;
+}
+
+@font-face{
+  font-family: Dosis;
+  src:url(fonts/Dosis-VariableFont_wght.ttf);
+}
+
+.title-text{
+ font-family:Dosis,'Courier New';
+ font-size:40px;
+}
+
+.footer{
+  position:absolute;
+  bottom:30px;
+  width:100%;
+}
+
+.next{
+  position:absolute;
+  right:30px;
+}
+.previous{
+  position:absolute;
+  left:30px;
+}
+.text-container{
+  background-color:whitesmoke;
+  margin-right:30px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+
+.text-container ul{
+  list-style-position:inside;
+  list-style-type:circle;
+  font-family: 'Courier New';
+  margin-right:10%;
+  
+}
+
+.text-container ul li{
+  padding:10px;
+  margin:5px;
+  background-color:darkslategrey;
+  margin:3px;
+  color:whitesmoke
+}
+
+#jerseypic{
+  margin-top:70px;
+  margin-right: 10px;
+  border:35px solid whitesmoke;
+}
+#quotepic{
+width:30%;
+ margin-top:80px; 
+ margin-right:10px;
+
+}
+
+#songlist li{
+  background-color: slategrey;
+  text-color: whitesmoke;
+}
+
+a{
+  color: whitesmoke;
+  font-family:'Courier New';
+  font-size:20px;
+}
